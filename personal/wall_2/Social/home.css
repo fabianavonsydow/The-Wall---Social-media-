@@ -1,0 +1,85 @@
+/*
+* Globals
+*/
+
+/* Links */
+a,
+a:focus,
+a:hover {
+color: black;
+}
+
+/* Custom default button */
+.btn-secondary
+.btn-secondary:hover,
+.btn-secondary:focus {
+color: #333;
+text-shadow: none; /* Prevent inheritance from `body` */
+background-color: black;
+border: .05rem solid rgb(193, 18, 18);
+}
+
+
+/*
+* Base structure
+*/
+
+html,
+body {
+height: 100%;
+/*background-color: yellow;*/
+background-image: url("https://images.unsplash.com/photo-1528034731963-671a69eb642f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=94416a06fad1f4988ed2b24f90f207a9&auto=format&fit=crop&w=1051&q=80");
+background-size: cover;
+}
+
+body {
+display: -ms-flexbox;
+display: flex;
+color: white;
+text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+.cover-container {
+max-width: 42em;
+}
+
+
+/*
+* Header
+*/
+.masthead {
+margin-bottom: 2rem;
+}
+
+.masthead-brand {
+margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+padding: .25rem 0;
+font-weight: 700;
+color: white;
+background-color: transparent;
+border-bottom: .25rem solid transparent;
+}
+
+
+
+.nav-masthead .nav-link + .nav-link {
+margin-left: 1rem;
+}
+
+.nav-masthead .active {
+    color: rgb(28, 44, 192);
+    border-bottom-color: rgb(24, 94, 201);
+}
+
+@media (min-width: 48em) {
+    .masthead-brand {
+        float: left;
+    }
+    .nav-masthead {
+        float: right;
+    }
+}

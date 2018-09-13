@@ -1,0 +1,32 @@
+.formstyling {
+	padding: 15px 15px 15px 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #EEE;
+}
+
+.formstyling button {
+	margin-left: 85%;
+	width: 15%;
+}
+
+/*.messages .forms .form-group  {
+	border: 1px solid red;
+}*/
+
+.messages .forms .form-group textarea {
+	width: 84%;
+	display: inline-block;
+	/*border: 1px solid red;*/
+}
+
+.messages .forms .form-group .btn {
+	width: 15%;
+	display: inline-block;
+	vertical-align: top;
+	/*border: 1px solid red;*/
+}
+
+.messages .comments div {
+	padding-left: 5%;
+}
